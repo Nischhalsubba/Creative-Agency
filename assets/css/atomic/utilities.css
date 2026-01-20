@@ -1,0 +1,32 @@
+/* Atomic Design: Utilities */
+.skip-link {
+	position: absolute;
+	top: var(--space-3);
+	left: var(--space-3);
+	padding: var(--space-2) calc(var(--space-2) * 1.5);
+	background: var(--color-surface);
+	color: var(--color-ink);
+	border-radius: var(--radius-pill);
+	text-decoration: none;
+	font-weight: 600;
+	transform: translateY(-200%);
+	transition: transform 0.2s ease;
+	z-index: 10000;
+}
+
+.skip-link:focus {
+	transform: translateY(0);
+	outline: var(--focus-ring);
+	outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
