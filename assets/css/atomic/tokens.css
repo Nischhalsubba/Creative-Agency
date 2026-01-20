@@ -1,0 +1,13 @@
+/* Atomic Design: Tokens */
+:root {
+	--color-bg: #0a0a0a;
+	--color-text: #ffffff;
+	--color-ink: #111111;
+	--color-surface: #ffffff;
+
+	--radius-pill: 999px;
+	--focus-ring: 2px solid #ffffff;
+
+	--space-2: 0.75rem;
+	--space-3: 1.5rem;
+}
