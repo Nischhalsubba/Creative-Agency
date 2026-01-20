@@ -1,12 +1,15 @@
-# Creative Agency — 2026 Atomic Front-End
+# Aurora Creative Co. — 2026 Atomic Front-End
 
-A modernized, SEO-forward creative agency site built for GitHub Pages. The codebase is organized using **Atomic Design** principles, with clear HTML comments and modular SCSS structure to make future changes predictable and fast.
+Aurora Creative Co. is a Melbourne-based studio that partners with growth-focused teams to craft brand systems, digital
+experiences, and launch campaigns. This repository contains the production-ready, SEO-forward website built for GitHub
+Pages with a mobile-first, Atomic Design approach.
 
 ## Highlights
 
 - **Atomic Design structure** for scalable front-end maintenance.
 - **SEO-focused copy** across every page (home, about, services, work, insights, contact).
 - **Accessible markup** with skip links, descriptive alt text, and clear structure.
+- **Mobile-first structure** with responsive layout utilities in the existing stylesheet.
 - **GitHub Pages ready** (static HTML/CSS/JS with local asset paths).
 - **Open-source imagery** sourced from Unsplash and local MP4/WebM media included.
 
@@ -69,9 +72,33 @@ http://127.0.0.1:8000/index.html
 - Motion examples use the local `assets/vids/` MP4/WebM files for faster loading and offline use.
 - Copywriting has been rewritten with modern SEO phrasing and clear service messaging.
 
+## About the Agency
+
+Aurora Creative Co. is a strategic creative studio specializing in brand identity, digital product design, and
+performance campaigns. Our work blends research, storytelling, and visual craft to help ambitious teams grow with
+clarity.
+
+## Technology Used
+
+- **HTML5** for semantic, accessible structure.
+- **CSS3** with Atomic Design patterns for scalable styling.
+- **SCSS** partials for modular source styling.
+- **JavaScript (ES5/ES6)** for interactivity via the existing template scripts.
+- **GitHub Pages** for static hosting.
+
+## Project Role
+
+I designed and coded this website end-to-end, including information architecture, SEO content strategy, and front-end
+implementation.
+
 ## Editing Content
 
 All pages contain **inline comments** above key sections and blocks to guide future edits. If you are modifying content, update the corresponding page and keep the section comments intact for maintainability.
+
+## Branching & PR Guidance
+
+For conflict-free merges into `main`, create a new feature branch from the latest `main`, keep changes scoped to a single
+topic, and avoid rebasing after the PR is opened. This keeps GitHub Pages deployments predictable and easy to roll back.
 
 ## License
 
