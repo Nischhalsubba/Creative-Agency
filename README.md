@@ -95,11 +95,6 @@ implementation.
 
 All pages contain **inline comments** above key sections and blocks to guide future edits. If you are modifying content, update the corresponding page and keep the section comments intact for maintainability.
 
-## Branching & PR Guidance
-
-For conflict-free merges into `main`, create a new feature branch from the latest `main`, keep changes scoped to a single
-topic, and avoid rebasing after the PR is opened. This keeps GitHub Pages deployments predictable and easy to roll back.
-
 ## License
 
 This project is intended for internal or client use. Replace Unsplash imagery with your own brand assets for production launch.
