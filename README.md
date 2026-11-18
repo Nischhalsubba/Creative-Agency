@@ -8,7 +8,7 @@
 ![Last commit](https://img.shields.io/github/last-commit/Nischhalsubba/Creative-Agency?style=flat-square)
 ![Repo size](https://img.shields.io/github/repo-size/Nischhalsubba/Creative-Agency?style=flat-square)
 
-[Browse website](./site) · [Technical README](./site/README.md) · [Issues](https://github.com/Nischhalsubba/Creative-Agency/issues)
+[Open homepage](./index.html) · [Browse site pages](./) · [Issues](https://github.com/Nischhalsubba/Creative-Agency/issues)
 
 </div>
 
@@ -56,7 +56,9 @@ flowchart TD
 ```text
 Creative-Agency/
 ├── .github/   # automation
-├── site/      # maintained website and deeper docs
+├── index.html, about.html, services.html, work.html, blog.html, contact.html
+├── assets/    # local styles, scripts, vendor files, and imagery
+├── docs/      # project guidance and archival material
 └── README.md  # project overview
 ```
 
@@ -64,10 +66,10 @@ Creative-Agency/
 
 ```bash
 git clone https://github.com/Nischhalsubba/Creative-Agency.git
-cd Creative-Agency/site
+cd Creative-Agency
 ```
 
-Use the runtime and package manager declared by the files under `site/`. Detailed technical notes belong in [`site/README.md`](./site/README.md).
+Run `python3 -m http.server 8000` from the repository root, then open `http://localhost:8000/`. This static page collection does not require a package-manager build step.
 
 ## Design & accessibility
 
@@ -87,3 +89,7 @@ flowchart LR
     ACCESS --> SEO["Metadata / content check"]
     SEO --> PR["Pull request"]
 ```
+
+## Maintainer review guide
+
+See [define agency navigation, content and enquiry QA](./docs/AGENCY_PAGE_AND_ENQUIRY_QA.md) for scoped review procedures, release evidence and risk controls specific to this repository.
