@@ -93,3 +93,7 @@ flowchart LR
 ## Maintainer review guide
 
 See [define agency navigation, content and enquiry QA](./docs/AGENCY_PAGE_AND_ENQUIRY_QA.md) for scoped review procedures, release evidence and risk controls specific to this repository.
+
+## Editorial claims and contact outcome QA
+
+Use the [content accuracy and contact-review guide](docs/CONTACT_AND_CONTENT_QA.md) alongside the [existing page and enquiry checklist](./docs/AGENCY_PAGE_AND_ENQUIRY_QA.md). Together they cover public claim evidence, page interactions and corrective action.
